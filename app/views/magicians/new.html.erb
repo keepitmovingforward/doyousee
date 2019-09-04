@@ -1,0 +1,11 @@
+<h1>Add a Magician!</h1>
+
+<%= form_for (@magician) do |m| %>
+  <%= m.label :name %>
+  <%= m.text_field :name %>
+  <%= m.label :age %>
+  <%= m.number_field :age %>
+  <%= m.label :location %>
+  <%= m.text_field :location %>
+  <%= m.submit %>
+<% end %>

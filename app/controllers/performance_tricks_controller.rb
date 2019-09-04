@@ -1,0 +1,2 @@
+class PerformanceTricksController < ApplicationController
+end
